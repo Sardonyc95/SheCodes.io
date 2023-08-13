@@ -1,0 +1,29 @@
+:root {
+    --default-font-family: sans-serif;
+    --primary-color: #fff;
+    --card-border-color: #ced4da;
+    --button-text-color: #0d6efd;
+  }
+
+.Search form{
+    display: block;
+}
+.Search button{
+    font-size: 15px;
+    font-family: var(--default-font-family);
+    margin-left: 20px;
+    width: 100px;
+    padding: 10px;
+    color: var(--primary-color);
+    background: var(--button-text-color);
+    border: none;
+    border-radius: 4px;
+    
+}
+
+.Search .formInput{
+    padding: 10px;
+    width: 300px;
+    border: 1px solid var(--card-border-color);
+    border-radius: 4px;
+}

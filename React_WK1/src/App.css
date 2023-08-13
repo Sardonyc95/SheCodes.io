@@ -1,0 +1,51 @@
+:root {
+  --default-font-family: sans-serif;
+  --card-border-color: #ced4da;
+}
+
+.App{
+  max-width: 450px;
+  border: 1px solid var(--card-border-color);
+  border-radius: 4px;
+  padding: 20px;
+  margin: 30px auto 0 auto;
+}
+.App h1{
+  font-size: 25px;
+  font-family: var(--default-font-family);
+  line-height: 35px;
+  opacity: 0.6;
+  padding: 0;
+  margin-bottom: 0;
+}
+.App p{
+  font-size: 15px;
+  font-family: var(--default-font-family);
+  line-height: 25px;
+  opacity:0.6;
+  padding: 0;
+  margin: 0;
+}
+.App .weatherForecast{
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
+.App .weatherTemp{
+  display: inline-flex;
+}
+.App .weatherTemp .tempDetails{
+  display: flex;
+  width: 100%;
+}
+.App .weatherTemp .temperature{
+  font-size: 50px;
+  line-height: 55px;
+  font-family: var(--default-font-family);
+}
+.App .weatherTemp .tempIcon{
+  color: blue;
+}
+.App .weatherDetails{
+  margin: 0 auto;
+}
