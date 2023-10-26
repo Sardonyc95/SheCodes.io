@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>weather_App</title>
+    <style>
+      h1 {
+        color: #1a64d6;
+        font-size: 45px;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 55px;
+        margin: 0;
+      }
+      h2 {
+        font-size: 42px;
+        font-weight: 400;
+        line-height: 60px;
+        margin: 0;
+      }
+      ul {
+        padding: 0;
+      }
+      li {
+        list-style: none;
+        border-radius: 10px;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 35px;
+        padding: 10px 0;
+        transition: all 200ms ease-in-out;
+        max-width: 400px;
+        margin: 0 auto;
+      }
+      li p {
+        color: rgb(75, 70, 70);
+        font-size: 22px;
+        font-family: monospace;
+        opacity: 0.8;
+      }
+      li:hover {
+        background: #fffbef;
+        max-width: 500px;
+        margin: 0 auto;
+        /* cursor: pointer; */
+      }
+      button {
+        display: block;
+        margin: 20px auto;
+        padding: 20px 28px;
+        color: #ffffff;
+        background: #1a64d6;
+        border: 1px solid #1a64d6;
+        border-radius: 40px;
+        box-shadow: rgb(37 39 89 / 8%) 0px 8px 8px 0;
+        font-size: 20px;
+        line-height: 32px;
+        transition: all 200ms ease-in-out;
+        /* opacity: 1; */
+      }
+      button:hover {
+        color: #1a64d6;
+        background: #fff;
+        opacity: 1;
+        cursor: pointer;
+      }
+
+      .weather_conditions {
+        text-align: center;
+      }
+      .designer {
+        color: rgb(75, 70, 70);
+        font-size: 25px;
+        font-family: monospace;
+        opacity: 0.6;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Workshop Week 1 Homework -->
+    <div class="weather_conditions">
+      <h1>
+        ⛅
+        <br />
+        Currently 210 in Tokyo
+      </h1>
+      <h2>
+        13&#176; /
+        <strong>23&#176;</strong>
+      </h2>
+      <ul>
+        <li>
+          <h3>🌧️ Tomorrow</h3>
+          <p>
+            10&#176; /
+            <strong>22&#176;</strong>
+          </p>
+        </li>
+        <li>
+          <h3>🌥️ Saturday</h3>
+          <p>
+            15&#176; /
+            <strong>17&#176;</strong>
+          </p>
+        </li>
+        <li>
+          <h3>☀️ Sunday</h3>
+          <p>
+            25&#176; /
+            <strong>28&#176;</strong>
+          </p>
+        </li>
+      </ul>
+      <button>Change city</button>
+      <p class="designer">Coded by Victoria Adolphus</p>
+    </div>
+  </body>
+</html>
